@@ -2,7 +2,7 @@
 
 使用 TypeScript 和 Vite 实现的经典贪吃蛇游戏，具有精美的粒子特效和视觉增强。
 
-![版本](https://img.shields.io/badge/版本-1.2.0-blue)
+![版本](https://img.shields.io/badge/版本-1.2.1-blue)
 ![许可证](https://img.shields.io/badge/许可证-MIT-green)
 ![状态](https://img.shields.io/badge/状态-活跃-brightgreen)
 
@@ -69,38 +69,9 @@ pnpm build
 pnpm preview
 ```
 
-## 📝 版本历史
-
-### v1.2.0 (2025-12-17)
-- ✨ 新增粒子特效系统
-- 🎨 增强视觉设计，添加渐变和阴影效果
-- 🔧 修复蛇身体初始化 bug
-- 🎯 改进碰撞检测算法
-- 🌐 中文界面完全支持
-
-### v1.0.2
-- 初始发布版本
-
-## 🤝 贡献指南
-
-欢迎提交贡献！请查看 [CONTRIBUTORS.md](./CONTRIBUTORS.md) 了解详细指南。
-
-### 如何贡献
-
-1. Fork 本仓库
-2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 开启 Pull Request
-
-## 📄 许可证
+## � 许可证
 
 本项目采用 MIT 许可证 - 详情请参阅 [LICENSE](./LICENSE) 文件。
-
-## 👤 作者
-
-**Hanson James** (hanson666888)
-- GitHub: [@HansonJames](https://github.com/HansonJames)
 
 ## ⭐ Star History
 
