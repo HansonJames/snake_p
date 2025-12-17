@@ -91,6 +91,15 @@ class Snake {
     addBody() {
         // 向element中添加一个div
         this.element.insertAdjacentHTML("beforeend", "<div></div>");
+        
+        // 为新增加的身体设置初始位置（与最后一个身体相同）
+        const newBody = this.bodies[this.bodies.length - 1] as HTMLElement;
+        const lastBody = this.bodies[this.bodies.length - 2] as HTMLElement;
+        
+        if (lastBody) {
+            newBody.style.left = lastBody.offsetLeft + 'px';
+            newBody.style.top = lastBody.offsetTop + 'px';
+        }
     }
 
     // 添加一个蛇身体移动的方法
@@ -116,8 +125,13 @@ class Snake {
 
     // 检查蛇头是否撞到身体的方法
     checkHeadBody() {
+        // 只检查身体长度 > 4 的情况（避免新增加的身体在第一帧就触发碰撞检测）
+        if (this.bodies.length <= 4) {
+            return;
+        }
+        
         // 获取所有的身体，检查其是否和蛇头的坐标发生重叠
-        for (let i = 1; i < this.bodies.length; i++) {
+        for (let i = 4; i < this.bodies.length; i++) {
             let bd = this.bodies[i] as HTMLElement;
             if (this.X === bd.offsetLeft && this.Y === bd.offsetTop) {
                 // 进入判断说明蛇头撞到了身体，游戏结束

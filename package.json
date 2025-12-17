@@ -1,7 +1,7 @@
 {
   "name": "@hansonjames/snake_p",
-  "version": "1.0.2",
-  "description": "A classic Snake game implemented with TypeScript and Vite.",
+  "version": "1.2.0",
+  "description": "一个使用TypeScript和Vite实现的精美贪吃蛇游戏，包含粒子特效和视觉增强。A classic Snake game implemented with TypeScript and Vite with particle effects.",
   "repository": {
     "type": "git",
     "url": "https://github.com/HansonJames/snake_p.git"
@@ -18,7 +18,7 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "keywords": [],
+  "keywords": ["snake", "game", "typescript", "vite", "particle-effects"],
   "author": "",
   "license": "MIT",
   "packageManager": "pnpm@10.25.0",
