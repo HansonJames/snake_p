@@ -1,0 +1,20 @@
+{
+  "name": "snake_p",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.25.0",
+  "devDependencies": {
+    "less": "^4.5.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.0"
+  }
+}
