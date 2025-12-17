@@ -1,6 +1,6 @@
 {
-  "name": "snake_p",
-  "version": "1.0.0",
+  "name": "@hansonjames/snake_p",
+  "version": "1.0.2",
   "description": "A classic Snake game implemented with TypeScript and Vite.",
   "repository": {
     "type": "git",
