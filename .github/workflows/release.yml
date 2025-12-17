@@ -31,11 +31,16 @@ jobs:
       - name: Build
         run: pnpm build
 
+      - name: Archive Production Build
+        run: tar -czvf snake-game-dist.tar.gz -C dist .
+
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
-          files: dist/*
+          files: snake-game-dist.tar.gz
           generate_release_notes: true
+          draft: false
+          prerelease: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
