@@ -1,8 +1,18 @@
 {
   "name": "snake_p",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A classic Snake game implemented with TypeScript and Vite.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HansonJames/snake_p.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -63,3 +63,8 @@ pnpm preview
 ## 许可证
 
 本项目采用 MIT 许可证 - 详情请参阅 [LICENSE](./LICENSE) 文件。
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=HansonJames/snake_p&type=Date)](https://star-history.com/#HansonJames/snake_p&Date)
+
