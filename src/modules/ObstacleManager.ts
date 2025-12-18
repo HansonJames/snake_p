@@ -19,7 +19,8 @@ export class ObstacleManager {
             obstacle.style.backgroundColor = 'gray';
             obstacle.style.position = 'absolute';
             
-            let x, y;
+            let x = 0;
+            let y = 0;
             let overlap = true;
             
             // Simple collision avoidance for spawn
@@ -31,13 +32,11 @@ export class ObstacleManager {
                 if (x < 50 && y < 50) overlap = true;
             }
 
-            if (x !== undefined && y !== undefined) {
-                obstacle.style.left = x + 'px';
-                obstacle.style.top = y + 'px';
-                this.stageElement.appendChild(obstacle);
-                this.obstacles.push(obstacle);
-                this.obstacleCoords.push({x, y});
-            }
+            obstacle.style.left = x + 'px';
+            obstacle.style.top = y + 'px';
+            this.stageElement.appendChild(obstacle);
+            this.obstacles.push(obstacle);
+            this.obstacleCoords.push({x, y});
         }
     }
 
