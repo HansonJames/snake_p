@@ -1,4 +1,4 @@
-# Release v1.3.1
+# What's Changed
 
 ## English
 - **New Features**:
@@ -15,7 +15,7 @@
   - Removed the old level system (speed-based) in favor of the new stage-based progression.
   - Visual updates to support new game elements.
 
-## 中文 (Chinese)
+## 中文
 - **新功能**:
   - 新增游戏音效：背景音乐、吃食物音效、死亡音效。
   - 全新关卡系统：共10关，难度和障碍物随关卡增加。
@@ -29,3 +29,7 @@
 - **改进**:
   - 移除了旧的基于速度的等级系统，替换为基于关卡的进度系统。
   - 视觉效果更新以支持新的游戏元素。
+
+## Contributors (贡献者)
+- @hanson666888
+- @HansonJames
