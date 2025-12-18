@@ -30,3 +30,8 @@
   - 移除了旧的基于速度的等级系统，替换为基于关卡的进度系统。
   - 视觉效果更新以支持新的游戏元素。
 
+## Contributors (贡献者)
+- @HansonJames
+
+## Full Changelog
+https://github.com/HansonJames/snake_p/compare/v1.2.1...v1.3.1
