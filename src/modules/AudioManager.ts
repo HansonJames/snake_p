@@ -1,13 +1,17 @@
+import bgmUrl from '../audios/game_bgm.mp3';
+import eatSoundUrl from '../audios/eat_sound.mp3';
+import deathSoundUrl from '../audios/death_sound.mp3';
+
 export class AudioManager {
     private bgm: HTMLAudioElement;
     private eatSound: HTMLAudioElement;
     private deathSound: HTMLAudioElement;
 
     constructor() {
-        this.bgm = new Audio('/src/audios/game_bgm.mp3');
+        this.bgm = new Audio(bgmUrl);
         this.bgm.loop = true;
-        this.eatSound = new Audio('/src/audios/eat_sound.mp3');
-        this.deathSound = new Audio('/src/audios/death_sound.mp3');
+        this.eatSound = new Audio(eatSoundUrl);
+        this.deathSound = new Audio(deathSoundUrl);
     }
 
     playBgm() {

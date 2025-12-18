@@ -69,6 +69,16 @@ Preview the production build:
 pnpm preview
 ```
 
+### Docker Deployment
+
+For detailed Docker deployment instructions, please refer to [DOCKER_GUIDE.md](./DOCKER_GUIDE.md).
+
+Quick start with Docker:
+
+```bash
+docker run -dit -p 5001:5001 --name _snake_p_c haisheng666/snake_p:latest
+```
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.

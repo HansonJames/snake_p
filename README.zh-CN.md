@@ -2,7 +2,7 @@
 
 使用 TypeScript 和 Vite 实现的经典贪吃蛇游戏，具有精美的粒子特效和视觉增强。
 
-![版本](https://img.shields.io/badge/版本-1.2.1-blue)
+![版本](https://img.shields.io/badge/版本-1.3.2-blue)
 ![许可证](https://img.shields.io/badge/许可证-MIT-green)
 ![状态](https://img.shields.io/badge/状态-活跃-brightgreen)
 
@@ -69,7 +69,17 @@ pnpm build
 pnpm preview
 ```
 
-## � 许可证
+### Docker 部署
+
+详细的 Docker 部署指南请参考 [DOCKER_GUIDE.md](./DOCKER_GUIDE.md)。
+
+快速启动 Docker 容器:
+
+```bash
+docker run -dit -p 5001:5001 --name snake_p_c haisheng666/snake_p:latest
+```
+
+## 许可证
 
 本项目采用 MIT 许可证 - 详情请参阅 [LICENSE](./LICENSE) 文件。
 
